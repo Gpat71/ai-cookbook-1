@@ -1,3 +1,5 @@
+# %%
+
 import os
 
 from openai import OpenAI
@@ -41,3 +43,4 @@ event = completion.choices[0].message.parsed
 event.name
 event.date
 event.participants
+# %%

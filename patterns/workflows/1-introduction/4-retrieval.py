@@ -1,3 +1,5 @@
+# %%
+# test
 import json
 import os
 
@@ -127,3 +129,4 @@ completion_3 = client.beta.chat.completions.parse(
 )
 
 completion_3.choices[0].message.content
+# %%
